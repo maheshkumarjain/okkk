@@ -1,0 +1,77 @@
+body
+{
+background-color: grey;
+}
+.title align{
+    text-align: center;
+    justify-content: center;
+}
+.box{
+background-color: rgb(48, 102, 48);
+border : 1px solid rgb(246, 241, 241);
+height: 300px;
+width: 300px;
+border-radius: 10px;
+position: relative;
+top: 80px;
+left: 40%;
+}
+
+.display input{
+position: relative;
+left: 9px;
+top: 10px;
+height: 35spx;
+border-radius: 10px;
+
+color: black;
+background-color: white;
+font-size: 21px;
+text-align: right;
+}
+.keys
+{
+position: relative;
+top: 15px;
+}
+.button{
+width: 40px;
+height: 30px;
+border: none;
+border-radius: 8px;
+margin-left: 17px;
+cursor: pointer;
+border-top: 2px solid transparent;
+}
+
+/* .title:hover {
+color: #fff;
+} */
+.title {
+margin-bottom: 10px;
+margin-top: 30px;
+
+padding: 5px 0;
+font-size: 100px;
+font-weight: bold;
+text-align: center;
+color:black;
+font-family: 'Cookie', cursive;
+}
+
+.button.gray {
+color: #000000;
+background-color: #999999;
+border-bottom: gray 2px solid;
+border-top: 2px 303030 solid;
+font-weight: bold;
+}
+
+.gray:active {
+border-top: gray 2px solid;
+border-bottom: #303030 2px solid;
+}
+
+p{
+line-height: 10px;
+}
